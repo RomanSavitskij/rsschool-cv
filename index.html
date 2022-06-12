@@ -15,12 +15,24 @@
     <header class="header">
         <nav>
             <ul class="nav-flex">
-                <li>About me</li>
-                <li>Skills</li>
-                <li>Contacts</li>
-                <li>Code examples</li>
-                <li>Projects</li>
-                <li>Education</li>
+                <li >
+                    <a href="#about">About me</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contacts</a>
+                </li>
+                <li>
+                    <a href="#examples">Code examples</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -31,7 +43,7 @@
             </div>
             <div class="main__top--right">
                 <h1 class="my-name">Roman Savitski</h1>
-                <h2>About me</h2>
+                <h2 id="about">About me</h2>
                 <p>
                     I am a man, who wants to become a good programmer.
                     I want to be full-stack developer, create high quality web applications.
@@ -39,7 +51,7 @@
                 </p>
             </div>
         </section>
-        <section class="main__skills ">
+        <section class="main__skills" id="skills">
             <h2 class="main__headings">Skills</h2>
             <table class="main__items main__table" cellspacing="5">
                 <tr>
@@ -56,31 +68,56 @@
                 </tr>
             </table>
         </section>
-        <section class="main__contacts">
+        <section class="main__contacts contacts" id="contacts">
             <h2 class="main__headings">Contacts</h2>
+            <table class="contacts__table">
+                <tr>
+                    <td>
+                        <a href="https://t.me/Savitskas">
+                            <img class="contacts-logo" src="assets/svg/telegram-svg.png" alt="telegram-logo">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://t.me/Savitskas">
+                            <span>Telegram</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="contacts-logo" src="assets/svg/discord-svg.png" alt="">
+                    </td>
+                    <td>
+                        <span>Discord: Savitskas#1855</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.instagram.com/_savitskas_">
+                            <img class="contacts-logo" src="assets/svg/instagram-svg.png" alt="">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://www.instagram.com/_savitskas_">
+                            <span>Instagram</span>
+                        </a>
+                    </td>
+                </tr>
+            </table>
             <ul class="main__items">
                 <li>
-                    <a href="https://t.me/Savitskas">
-                        Telegram
-                    </a>
                 </li>
                 <li>
-                    Discord Savitskas#1855
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/_savitskas_">
-                        Instagram
-                    </a>
                 </li>
             </ul>
         </section>
-        <section class="main__examples">
+        <section class="main__examples" id="examples">
             <h2 class="main__headings">Code examples</h2>
             <div class="main__items">
 
             </div>
         </section>
-        <section class="main__projects">
+        <section class="main__projects" id="projects">
             <h2 class="main__headings">
                 Some training projects
             </h2>
@@ -95,7 +132,7 @@
                 </li>
             </ul>
         </section>
-        <section class="main__education">
+        <section class="main__education" id="education">
             <h2 class="main__headings">
                 Education
             </h2>

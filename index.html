@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@200&display=swap" rel="stylesheet">
     <title>cv</title>
 </head>
-<body class="body--flex">
+<body class="body">
     <header class="header">
         <nav>
             <ul class="nav-flex">
@@ -111,10 +111,14 @@
                 </li>
             </ul>
         </section>
-        <section class="main__examples" id="examples">
+        <section id="examples">
             <h2 class="main__headings">Code examples</h2>
-            <div class="main__items">
-
+            <div class="main__items main__examples">
+                <p>
+                    for (let x = 10; x > 0; x--) {<br>
+                        console.log(x);<br>
+                    }
+                </p>
             </div>
         </section>
         <section class="main__projects" id="projects">
@@ -140,18 +144,18 @@
             <h2 class="main__headings main__progress">
                 Languages
             </h2>
-            <table class="main__items main__table">
+            <table class="main__items main__table table">
                 <tr>
                     <td>English</td>
-                    <td>Intermediate</td>                    
+                    <td class="table__right-column">Intermediate</td>                    
                 </tr>
                 <tr>
                     <td>Russian</td>
-                    <td>Native</td>
+                    <td class="table__right-column">Native</td>
                 </tr>
                 <tr>                    
                     <td>Belarusian</td>
-                    <td>Conversational</td>  
+                    <td class="table__right-column">Conversational</td>  
                 </tr>
             </table>
         </section>

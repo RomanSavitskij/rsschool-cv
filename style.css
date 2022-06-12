@@ -3,13 +3,11 @@ html {
   }
 
 body {
-    /* border: 5px solid green; */
-    width: 1000px;
     font-family: 'Big Shoulders Display', cursive;
     font-family: 'Lato', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 20px;
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(255, 255, 255);
 }
 
 * {
@@ -18,19 +16,23 @@ body {
     padding: 0;
   }
 
-.body--flex {
-    width: 1000px;
+.body {
+    width: 800px;
     height: 100%;
     margin: 0px auto;
-    padding: 0px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 0px 0px 20px #b9b9b9;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+.header a:hover {
+    color: aliceblue;
 }
 
 li {
@@ -50,7 +52,7 @@ li {
 }
 
 .main {
-    background-color: #fff;
+    background-color: rgb(238, 238, 238);
 }
 
 .main__items {
@@ -66,6 +68,23 @@ li {
     display: flex;
 }
 
+.main__top--right {
+    margin: 0px 30px;
+}
+
+.my-name {
+    margin: 30px 0px;
+    font-size: 40px;
+}
+
+.main__top--left {
+    height: 360px;
+}
+
+.avatar {
+    width: 300px;
+}
+
 .main__progress {
     display: flex;
     justify-content: space-between;
@@ -79,17 +98,15 @@ li {
     margin: 15px;
 }
 
-.avatar {
+.main__examples {
     width: 300px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: silver;
 }
 
-.main__top--right {
-    margin: 0px 30px;
-}
-
-.my-name {
-    margin: 30px 0px;
-    font-size: 40px;
+.table__right-column {
+    text-align: right;
 }
 
 .contacts-logo {

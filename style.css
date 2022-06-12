@@ -60,6 +60,15 @@ li {
     display: flex;
 }
 
+.main__progress {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__table {
+    width: 300px;
+}
+
 .avatar {
     width: 300px;
 }
@@ -77,6 +86,7 @@ li {
     position: relative;
     bottom: 0;
     display: flex;
+    justify-content: space-between;
     padding: 10px;
     background-color: #64a0c2;
 }

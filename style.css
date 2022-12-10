@@ -85,17 +85,14 @@ li {
     width: 300px;
 }
 
-.main__progress {
-    display: flex;
-    justify-content: space-between;
-}
-
-.main__table {
+.main__skills-ul {
+    margin: 15px;
     width: 300px;
 }
 
-.contacts__table {
-    margin: 15px;
+.main__skills-li {
+    display: flex;
+    justify-content: space-between;
 }
 
 .main__examples {
@@ -103,6 +100,10 @@ li {
     padding: 20px;
     border-radius: 4px;
     background-color: silver;
+}
+
+.main__table {
+    width: 300px;
 }
 
 .table__right-column {

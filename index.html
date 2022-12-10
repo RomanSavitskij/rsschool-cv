@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/svg/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@200&display=swap" rel="stylesheet">
+    <title>cv</title>
+</head>
+<body class="body">
+    <header class="header">
+        <nav>
+            <ul class="nav-flex">
+                <li>
+                    <a href="#about">About me</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contacts</a>
+                </li>
+                <li>
+                    <a href="#examples">Code examples</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="main__top">
+            <div class="main__top--left">
+                <img src="assets/img/avatar.jpg" alt="my-photo" class="avatar">
+            </div>
+            <div class="main__top--right">
+                <h1 class="my-name">Roman Savitski</h1>
+                <h2 id="about">About me</h2>
+                <p>
+                    I am a man, who wants to become a good programmer.
+                    I want to be full-stack developer, create high quality web applications.
+                    I like learn new subjects that will help in the future.
+                </p>
+            </div>
+        </section>
+        <section class="main__skills" id="skills">
+            <h2 class="main__headings">Skills</h2>
+            <ul class="main__skills-ul">
+                <li>
+                    <div class="main__skills-li">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="main__skills-li">
+                        <span>CSS</span>
+                        <span>50%</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="main__skills-li">
+                        <span>JavaScript</span>
+                        <span>20%</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="main__contacts contacts" id="contacts">
+            <h2 class="main__headings">Contacts</h2>
+            <ul class="main__items">
+                <li>
+                    <a href="https://t.me/Savitskas">
+                        <img class="contacts-logo" src="assets/svg/telegram-svg.png" alt="telegram-logo">
+                        <span class="contacts-description">Telegram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://discordapp.com/users/973939314272649286/">
+                        <img class="contacts-logo" src="assets/svg/discord-svg.png" alt="contacts-logo-discord">
+                        <span class="contacts-description">Discord: Savitskas#1855</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/_savitskas_">
+                        <img class="contacts-logo" src="assets/svg/instagram-svg.png" alt="contacts-logo-instagram">
+                    </a>
+                    <a href="https://www.instagram.com/_savitskas_">
+                        <span class="contacts-description">Instagram</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section id="examples">
+            <h2 class="main__headings">Code examples</h2>
+            <div class="main__items main__examples">
+                <p>
+                    for (let x = 10; x &gt; 0; x--) {<br>
+                        console.log(x);<br>
+                    }
+                </p>
+            </div>
+        </section>
+        <section class="main__projects" id="projects">
+            <h2 class="main__headings">
+                Some training projects
+            </h2>
+            <ul class="main__items">
+                <li>
+                    <a href="https://github.com/RomanSavitskij/css-training-course/tree/bem/bem">
+                        Three cards task
+                    </a>
+                </li>
+                <li>
+                    Other in progress
+                </li>
+            </ul>
+        </section>
+        <section class="main__education" id="education">
+            <h2 class="main__headings">
+                Education
+            </h2>
+            <p class="main__items">General secondary education</p>
+            <h2 class="main__headings main__progress">
+                Languages
+            </h2>
+            <table class="main__items main__table table">
+                <tbody>
+                    <tr>
+                        <td>English</td>
+                        <td class="table__right-column">Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Russian</td>
+                        <td class="table__right-column">Native</td>
+                    </tr>
+                    <tr>
+                        <td>Belarusian</td>
+                        <td class="table__right-column">Conversational</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-item">2022</div>
+        <a href="https://github.com/RomanSavitskij">
+            <img src="assets/svg/github-svg.png" alt="github-profile" class="footer-item">
+        </a>
+        <a href="https://rs.school/js/">
+            <img src="assets/svg/rs_school_js.svg" alt="rsschool-logo" class="footer-item">
+        </a>
+    </footer>
+</body>
+</html>
